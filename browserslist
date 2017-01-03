@@ -1,0 +1,7 @@
+[production]
+last 2 versions
+not ie 10 # exclude
+
+[development]
+last 1 Chrome version
+last 1 Firefox version

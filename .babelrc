@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "node": "current"
+        },
+        "loose": true, /*for plugins*/
+        "modules": "commonjs"
+      }
+    ]
+  ],
+  "plugins": [
+    "syntax-decorators",
+    "transform-decorators-legacy"
+  ]
+}
