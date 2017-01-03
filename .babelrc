@@ -4,7 +4,14 @@
       "env",
       {
         "targets": {
-          "node": "current"
+          "node": "current",
+          "browsers": [
+            "last 2 Chrome versions",
+            "last 2 Firefox versions",
+            "ie 9-11",
+            "not ie 10",
+            "last 1 Safari version"
+          ]
         },
         "loose": true, /*for plugins*/
         "modules": "commonjs"
